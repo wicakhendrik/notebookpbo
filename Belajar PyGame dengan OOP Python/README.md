@@ -1,5 +1,5 @@
 # Belajar PyGame dengan OOP Python
-<img src="../image/pygame.png" align="right" />
+<img src="../img/pygame.png">
 
 PyGame adalah library Python untuk membuat aplikasi multimedia khususnya game.
 
