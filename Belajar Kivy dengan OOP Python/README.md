@@ -1,7 +1,8 @@
 # Belajar Kivy dengan OOP Python
-<img src="../img/kivy.png">
+<img src="../img/kivy.png" align="right" />
 
-Kivy adalah library Python untuk membuat aplikasi untuk berbagai platform.
+Kivy adalah library Python untuk membuat aplikasi untuk berbagai platform. Kivy bisa dijalankan pada Windows, Linux, OS X, Android, iOS, dan Raspberry Pi.
+
 Untuk memulai belajar Kivy dengan Menggunakan OOP Python, kita harus menginstall library Kivy terlebih dahulu.
 
 ## Instalasi Kivy
@@ -27,7 +28,7 @@ python -m pip install kivy.deps.angle
 ```bash
 python -m pip install kivy
 ```
-- kemudian install kivy examples(contoh program kivy)(opsional) 
+- kemudian install kivy examples(contoh program kivy)(opsional) untuk memastikan kivy sudah terinstall dengan baik.
 ```bash
 python -m pip install kivy_examples
 ```
