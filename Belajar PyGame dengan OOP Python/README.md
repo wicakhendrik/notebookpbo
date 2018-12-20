@@ -14,7 +14,7 @@ Untuk menginstall PyGame sebaiknya gunakan Python versi 3.6.1 atau yang tebaru u
 
 kemudian ketikkan :
 ```bash
-    "python -m pip install --upgrade pip"
+python -m pip install --upgrade pip
 ```
 <img src="../img/pyg2.png" align="center" />
 
