@@ -1,0 +1,108 @@
+#:kivy 1.10
+#: import get_color_from_hex kivy.utils.get_color_from_hex
+<MusicPlayer>:
+
+    canvas.before:
+        Color:
+            rgba: get_color_from_hex('#2D142C')
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    
+    TextInput:
+        id: direct
+        pos: 0,0
+        size: root.width-200,35
+        hint_text: 'Enter File Location or Leave Empty to Browse'
+    Button:
+        id: searchBtn
+        text: 'Browse'
+        size: 200,35
+        background_color: get_color_from_hex('#801336')
+        pos: root.width-200, 0
+        on_release: root.getSongs()
+
+    ScrollView:
+        size_hint: None, None
+        size: root.width, root.height-135
+        pos: 0, 100
+        GridLayout:
+            id: scroll
+            cols: 2
+            spacing: 10
+            size_hint_y: None
+            row_force_default: True
+            row_default_height: 40
+
+    GridLayout:
+        rows: 1
+        pos: 0, 35
+        size: root.width, 50
+        Button:
+            id:previous
+            text: '<--'
+            on_press: root.pause()
+            background_color: get_color_from_hex('#801336')
+        Button:
+            id:play
+            text: '||'
+            on_press: root.play()
+            background_color: get_color_from_hex('#801336')
+        Button:
+            id:pause
+            text: '|>'
+            on_press: root.pause()
+            background_color: get_color_from_hex('#801336')
+        Button:
+            id:forward
+            text: '-->'
+            on_press: root.pause()
+            background_color: get_color_from_hex('#801336')
+    Slider:
+        id:volumecontrol
+        size_hint_y: 0.1
+        pos: 200, 80
+        size: (root.width * 0.6) - 50, 50
+        max: 100
+        min: 0
+        on_value:root.volumectrl(*args)
+        
+    Button:
+        id: nowplay
+        text: 'Now Playing'
+        pos: 0,root.top-35
+        size: root.width, 35
+        background_color: get_color_from_hex('#801336')
+
+    Label:
+        id: status
+        text: ''
+        center: root.center
+
+<ChooseFile>:
+
+    canvas.before:
+        Color:
+            rgba: get_color_from_hex('#2D142C')
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        FileChooserIconView:
+            id: filechooser
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: "Cancel"
+                background_color: get_color_from_hex('#801336')
+                on_release: root.cancel()
+
+            Button:
+                text: "Select Folder"
+                background_color: get_color_from_hex('#801336')
+                on_release: root.select(filechooser.path)
