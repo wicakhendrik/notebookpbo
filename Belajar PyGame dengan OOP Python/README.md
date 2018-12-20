@@ -10,15 +10,21 @@ Untuk menginstall PyGame sebaiknya gunakan Python versi 3.6.1 atau yang tebaru u
 ### Instalasi menggunakan pip
 - Dengan menggunakan paket manager [pip](https://pip.pypa.io/en/stable/) untuk menginstall PyGame.
 - Buka Command Prompt (CMD) Windows sebagai administrator (Untuk Windows), atau buka Terminal/Tekan Ctrl + T pada Keyboard (Untuk Linux)
+
 kemudian ketikkan :
+```bash
+    "python -m pip install --upgrade pip"
+```
+<img src="../img/pyg1.png" align="center" />
+lalu enter untuk upgrade pip nya dulu, lalu install pygame dengan mengetik sebagai berikut:
 ```bash
 pip3 install pygame
 ```
-atau bisa juga
+lalu enter, atau bisa juga
 ```bash
 python3 - m pip install pygame
 ```
-untuk mengecek instalasi berhasil atau tidak, coba jalankan :
+lalu enter, untuk mengecek instalasi berhasil atau tidak, coba jalankan :
 ```bash
 python3 -m pygame.examples.aliens
 ```
