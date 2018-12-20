@@ -16,18 +16,27 @@ kemudian ketikkan :
 ```bash
     "python -m pip install --upgrade pip"
 ```
+<img src="../img/pyg2.png" align="center" />
+
 lalu enter untuk upgrade pip nya dulu, lalu install pygame dengan mengetik sebagai berikut:
 ```bash
 pip3 install pygame
 ```
+<img src="../img/pyg3.png" align="center" />
+
 lalu enter, atau bisa juga
 ```bash
 python3 - m pip install pygame
 ```
+<img src="../img/pyg4.png" align="center" />
+
 lalu enter, untuk mengecek instalasi berhasil atau tidak, coba jalankan :
 ```bash
 python3 -m pygame.examples.aliens
 ```
+<img src="../img/pyg5.png" align="center" />
+
+lalu enter.
 
 ### Instalasi pada Windows
 - Siapkan file pygame.whl
