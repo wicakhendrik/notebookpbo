@@ -85,7 +85,7 @@ Di dalam kelas ini terdapat 9 method yaitu method:
 Kelas ini berfungsi untuk menjalankan aplikasi/software. Di dalam kelas ini hanya terdapat 1 method, yaitu method **+build()** untuk menjalankan aplikasi/software KiPyMusic ini dengan memanggil dari class **MusicPlayer**. Kelas ini 
 inheritance terhadap class **kivy.app.App**.
 
-# Konsep - Konsep OOP yang ada pada Pr
+# Konsep - Konsep OOP yang ada pada Program KiPyMusicPlayer
 
 ## 1. Class :
 
