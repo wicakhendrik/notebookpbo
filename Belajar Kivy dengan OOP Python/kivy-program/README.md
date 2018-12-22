@@ -11,11 +11,11 @@ Kelas ini berfungsi untuk memilih direktori music yang ada di direktori file unt
 Di dalam kelas ini terdapat 2 attribut yaitu atribut:
 + **-select** :
 
-Berfungsi untuk memilih direktori music yang dimaksud
+  Berfungsi untuk memilih direktori music yang dimaksud
 
 + **-cancel** :
 
-Berfungsi untuk membatalkan perintah
+  Berfungsi untuk membatalkan perintah
 
 ### 2. Class MusicPlayer
 Kelas ini berfungsi sebagai kelas utama/root. Kelas ini inheritance terhadap class kivy.uix.widget.Widget.
