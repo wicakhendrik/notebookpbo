@@ -151,9 +151,26 @@ Adalah cara untuk menyembunyikan properti dan method di dalam sebuah class agar 
 
 
 # About KiPyMusicPlayer
-A music player application written in python-kivy.
-#Things to do
-* Find a good sound module to handle playing mp3, m4a, ogg
-* Make GUI more attractive
+Music Player sederhana yang dibangun dengan library python-kivy.
+* Mencari dan memainkan musik berformat mp3, m4a, ogg
+* GUI yang menarik.
+
 source : https://github.com/JasonHinds13/KVMusicPlayer
 
+## Screenshot Aplikasi
+
+#### Screenshot 1
+
+<img src="screenshot/ss_kipymusic1.png" align="center" />
+
+#### Screenshot 2
+
+<img src="screenshot/ss_kipymusic2.png" align="center" />
+
+#### Screenshot 3
+
+<img src="screenshot/ss_kipymusic3.png" align="center" />
+
+#### Screenshot 4
+
+<img src="screenshot/ss_kipymusic4.png" align="center" />
