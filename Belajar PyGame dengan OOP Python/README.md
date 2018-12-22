@@ -1,6 +1,7 @@
 # Belajar PyGame dengan OOP Python
 <img src="../img/pygame.png">
 
+## Pengertian PyGame
 PyGame adalah library Python untuk membuat aplikasi multimedia khususnya game.
 Untuk memulai belajar PyGame dengan Menggunakan OOP Python, kita harus menginstall library PyGame terlebih dahulu.
 
@@ -92,3 +93,4 @@ python -m pip install pygame
 ```bash
 python3 -m pygame.examples.aliens
 ```
+Setelah berhasil menginstall PyGame, maka tahap selanjutnya adalah mencoba Game yang sudah kami buat yaitu game ShooterPro, silahkan mendownload kemudian mencoba game ShooterPro pada folder ShooterPro diatas. Kemudian membaca Dokumentasi OOP yang dipakai dalam game ShooterPro ini.
