@@ -1,4 +1,4 @@
-# Dokumentasi OOP KiPyMusicPlayer
+# Dokumentasi dan Konsep OOP pada Program KiPyMusicPlayer
 
 <img src="../../img/doc-kivy1.png" align="center" />
 
@@ -86,47 +86,66 @@ Kelas ini berfungsi untuk menjalankan aplikasi/software. Di dalam kelas ini hany
 inheritance terhadap class **kivy.app.App**.
 
 # Konsep - Konsep OOP yang ada pada Pr
-Pengertian Class :
+
+## 1. Class :
 
 Class adalah Struktur data yang digunakan untuk mendefinisikan object yang menyimpan data beserta nilai-nilai dan perilakunya (behavior).
-Class adalah suatu entitas yang merupakan bentuk program dari suatu abstraksi untuk permasalahan dunia nyata, dan instans dari class merupakan realisasi dari beberapa objek.
-Class adalah wadah/cetakan untuk menciptakan object-object
-Class adalah Struktur data yang bisa digunakan untuk membuat object.
-Pengertian Instance (Instansiasi) :
 
-Instance(Instansiasi) dari class : Jika class secara umum merepresentasikan (template) sebuah object, maka sebuah instance adalah representasi nyata dari class itu sendiri.
-Pengertian Object :
+Class adalah suatu entitas yang merupakan bentuk program dari suatu abstraksi untuk permasalahan dunia nyata, dan instans dari class merupakan realisasi dari beberapa objek.
+
+Class adalah wadah/cetakan untuk menciptakan object-object
+
+Class adalah Struktur data yang bisa digunakan untuk membuat object.
+
+## 2. Instance (Instansiasi)
+
+Instance(Instansiasi) dari class Jika class secara umum merepresentasikan (template) sebuah object, maka sebuah instance adalah representasi nyata dari class itu sendiri.
+
+## 3. Object
 
 Object adalah Class yang sudah diisi.
-Object adalah Hasil ciptaan dari class.
-Default(pass) :
 
-adalah menurunkan semua properti dan method dari class induk (parent class) ke anak class (subclass).
-Inheritance Class :
+Object adalah Hasil ciptaan dari class.
+
+## 4. Default(pass)
+
+Adalah menurunkan semua properti dan method dari class induk (parent class) ke anak class (subclass).
+
+## 5. Inheritance Class
 
 Suatu class dapat mewarisi fungsi dari class lain. Jika sebuah object diciptakan menggunakan class yang mewarisi dari superclass, maka objek akan berisi method dari gabungan kedua kelas, yaitu kelas itu sendiri dan superclass.
+
 Suatu class dikatakan mewarisi class lain adalah ketika class tersebut memakai property atau method dari class lain. Misalnya dalam hal biologi, kita dapat memikirkan seorang anak yang mewarisi sifat-sifat tertentu dari orang tuanya. seperti, seorang anak dapat mewarisi warna mata atau tinggi orang tua.
-Override Inheritance
 
-mengganti / memodifikasi properti atau method ataupun properti dan method yang diturunkan dari class induk (parent class)
-Ketiga Class dalam Program ini memakai konsep Inheritance ini, karena memodifikasi properti dan method yang diturunkan dari class pygame.sprite.Sprite
-Super Inheritance
+## 6. Override Inheritance
 
-menambahkan properti dari class induk (parent class) -> boleh memakai super() ataupun nama class induknya.
-Ketiga Class dalam Program ini memakai konsep Inheritance ini, karena menambahkan properti dari class pygame.sprite.Sprite
-Multiple Inheritance
+Mengganti / memodifikasi properti atau method ataupun properti dan method yang diturunkan dari class induk (parent class).
 
-adalah ketika subclass memakai atau menambahkan properti / method dari 2 atau lebih class lain
-Polymorphisme
 
-adalah cara membuat struktur yang dapat mengambil atau menggunakan banyak bentuk objek.
-Ketiga Class dalam Program ini memakai konsep OOP ini, karena ketiga class ini menggunakan metode yang sama, namun dengan banyak bentuk tang berbeda
-Overloading
+## 7. Super Inheritance
 
-adalah sebuah method yang memiliki parameter dan method tersebut bisa mempunyai nama method yang sama dengan method yang lain dengan syarat jumlah parameter harus berbeda, atau dengan kata lain situasi di mana beberapa method dalam sebuah class dapat mempunyai nama yang sama tetapi berbeda jenis parameter,jumlah parameter, dan/atau jenis return value.
-Encapsulation
+Menambahkan properti dari class induk (parent class) -> boleh memakai super() ataupun nama class induknya.
 
-adalah cara untuk menyembunyikan properti dan method di dalam sebuah class agar properti dan method tersebut tidak dapat diakses oleh class lain.
+**Pada program KiPyMusicPlayer**
++ Class ChooseFile karena menambahkan properti dari class kivy.uix.floatlayout/(FloatLayout)
++ Class MusicPlayer karena menambahkan properti dari class kivy.uix.widget/(Widget)
++ Class KiPyMusicApp karena menambahkan properti dari class kivy.app/(App)
+
+## 8. Multiple Inheritance
+
+Adalah ketika subclass memakai atau menambahkan properti / method dari 2 atau lebih class lain
+
+## 9. Polymorphisme
+
+Adalah cara membuat struktur yang dapat mengambil atau menggunakan banyak bentuk objek.
+
+## 10. Overloading
+
+Adalah sebuah method yang memiliki parameter dan method tersebut bisa mempunyai nama method yang sama dengan method yang lain dengan syarat jumlah parameter harus berbeda, atau dengan kata lain situasi di mana beberapa method dalam sebuah class dapat mempunyai nama yang sama tetapi berbeda jenis parameter,jumlah parameter, dan/atau jenis return value.
+
+## 11. Encapsulation
+
+Adalah cara untuk menyembunyikan properti dan method di dalam sebuah class agar properti dan method tersebut tidak dapat diakses oleh class lain.
 
 
 
